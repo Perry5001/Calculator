@@ -127,6 +127,7 @@ deleteButton.addEventListener('click', button => {
     calculator.updateDisplay()
 })
 
+
 document.addEventListener('keydown', (event) => {
     console.log(event.key)
     switch (event.key){
